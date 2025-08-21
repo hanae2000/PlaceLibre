@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Parking Casablanca Centre",
+        "city": "Casablanca",
+        "totalSpots": 200,
+        "availableSpots": 45,
+        "pricing": {
+            "hourlyRate": 50
+        }
+    },
+    {
+        "id": 2,
+        "name": "Parking Rabat Agdal",
+        "city": "Rabat",
+        "totalSpots": 150,
+        "availableSpots": 30,
+        "pricing": {
+            "hourlyRate": 40
+        }
+    },
+    {
+        "id": 3,
+        "name": "Parking Marrakech Medina",
+        "city": "Marrakech",
+        "totalSpots": 120,
+        "availableSpots": 60,
+        "pricing": {
+            "hourlyRate": 45
+        }
+    },
+    {
+        "id": 4,
+        "name": "Parking Fès Ville Nouvelle",
+        "city": "Fès",
+        "totalSpots": 100,
+        "availableSpots": 25,
+        "pricing": {
+            "hourlyRate": 30
+        }
+    },
+    {
+        "id": 5,
+        "name": "Parking Tanger Centre",
+        "city": "Tanger",
+        "totalSpots": 80,
+        "availableSpots": 10,
+        "pricing": {
+            "hourlyRate": 35
+        }
+    }
+]
