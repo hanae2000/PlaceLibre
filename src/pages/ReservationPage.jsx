@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { supabase } from '../config/supabase';
-import { MapPin, Calendar, Clock, DollarSign, AlertCircle, Loader } from 'lucide-react';
+import { MapPin, Calendar, Clock, DollarSign, CircleAlert as AlertCircle, Loader } from 'lucide-react';
 
 export const ReservationPage = () => {
   const location = useLocation();

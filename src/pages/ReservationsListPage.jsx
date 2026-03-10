@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { supabase } from '../config/supabase';
-import { Calendar, MapPin, Clock, DollarSign, Trash2, AlertCircle, Loader, CheckCircle } from 'lucide-react';
+import { Calendar, MapPin, Clock, DollarSign, Trash2, CircleAlert as AlertCircle, Loader, CircleCheck as CheckCircle } from 'lucide-react';
 
 export const ReservationsListPage = () => {
   const { user } = useAuth();

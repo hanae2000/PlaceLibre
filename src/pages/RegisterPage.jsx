@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { Mail, Lock, User, AlertCircle, Loader } from 'lucide-react';
+import { Mail, Lock, User, CircleAlert as AlertCircle, Loader } from 'lucide-react';
 
 export const RegisterPage = () => {
   const [fullName, setFullName] = useState('');
